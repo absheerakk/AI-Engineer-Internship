@@ -5,8 +5,12 @@ build/
 dist/
 wheels/
 *.egg-info
+chat_log.txt
+*.log
+.idea/
 
 # Virtual environments
 .venv
 
 .env
+debug.log
