@@ -1,0 +1,3 @@
+[submodule "doc-qa-project"]
+	path = doc-qa-project
+	url = https://github.com/absheerakk/PageSage.git
