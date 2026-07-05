@@ -1,0 +1,12 @@
+Python was created by Guido van Rossum and first released in 1991.
+It is an interpreted, high-level, general-purpose programming language.
+Python's design philosophy emphasises code readability and simplicity.
+It supports multiple programming paradigms including procedural, object-oriented, and functional programming.
+Python has a large standard library and an active community.
+It is widely used in web development, data science, machine learning, and automation.
+The name Python comes from the BBC television show Monty Python's Flying Circus.
+Python 2 reached end of life in 2020 and Python 3 is the current standard.
+Popular Python frameworks include Django and Flask for web development.
+NumPy, Pandas, and Scikit-learn are widely used for data science work.
+TensorFlow and PyTorch are the dominant libraries for deep learning in Python.
+Python is consistently ranked as one of the most popular programming languages in the world.

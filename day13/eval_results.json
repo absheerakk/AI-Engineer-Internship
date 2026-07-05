@@ -1,0 +1,72 @@
+[
+  {
+    "question": "Who created Python?",
+    "expected": "Python was created by Guido van Rossum.",
+    "actual": "Guido van Rossum created Python.",
+    "context": "Python was created by Guido van Rossum and first released in 1991.",
+    "in_document": true
+  },
+  {
+    "question": "What TV show inspired the name of Python?",
+    "expected": "The name Python comes from the BBC television show Monty Python's Flying Circus.",
+    "actual": "Monty Python's Flying Circus",
+    "context": "The name Python comes from the BBC television show Monty Python's Flying Circus.",
+    "in_document": true
+  },
+  {
+    "question": "When did Python 2 reach its end of life?",
+    "expected": "Python 2 reached end of life in 2020.",
+    "actual": "Python 2 reached end of life in 2020.",
+    "context": "Python 2 reached end of life in 2020 and Python 3 is the current standard.",
+    "in_document": true
+  },
+  {
+    "question": "What libraries are used for data science and deep learning in Python?",
+    "expected": "NumPy, Pandas, and Scikit-learn are used for data science, while TensorFlow and PyTorch are used for deep learning.",
+    "actual": "For data science work, NumPy, Pandas, and Scikit-learn are widely used. For deep learning in Python, TensorFlow and PyTorch are the dominant libraries.",
+    "context": "NumPy, Pandas, and Scikit-learn are widely used for data science work. TensorFlow and PyTorch are the dominant libraries for deep learning in Python.",
+    "in_document": true
+  },
+  {
+    "question": "What are the popular web development frameworks for Python, and what other areas is Python widely used in?",
+    "expected": "Django and Flask are popular web development frameworks for Python. Python is also widely used in data science, machine learning, and automation.",
+    "actual": "Popular Python web development frameworks include Django and Flask. Python is also widely used in data science, machine learning, and automation.",
+    "context": "Popular Python frameworks include Django and Flask for web development. It is widely used in web development, data science, machine learning, and automation.",
+    "in_document": true
+  },
+  {
+    "question": "Who created Python and what standard version does it currently use?",
+    "expected": "Guido van Rossum created Python, and Python 3 is its current standard.",
+    "actual": "Python was created by Guido van Rossum and Python 3 is the current standard.",
+    "context": "Python was created by Guido van Rossum and first released in 1991. Python 2 reached end of life in 2020 and Python 3 is the current standard.",
+    "in_document": true
+  },
+  {
+    "question": "How does Python support multiple programming styles?",
+    "expected": "Python supports multiple programming paradigms including procedural, object-oriented, and functional programming.",
+    "actual": "Python supports multiple programming paradigms including procedural, object-oriented, and functional programming.",
+    "context": "It supports multiple programming paradigms including procedural, object-oriented, and functional programming.",
+    "in_document": true
+  },
+  {
+    "question": "What features of Python contribute to its large ecosystem and user base?",
+    "expected": "Python has a large standard library and an active community, and is consistently ranked as one of the most popular programming languages.",
+    "actual": "Python's features that contribute to its large ecosystem and user base include its large standard library, an active community, and an emphasis on code readability and simplicity in its design philosophy. It also supports multiple programming paradigms (procedural, object-oriented, and functional) and is widely used in web development, data science, machine learning, and automation.",
+    "context": "Python has a large standard library and an active community. Python is consistently ranked as one of the most popular programming languages in the world.",
+    "in_document": true
+  },
+  {
+    "question": "What is the execution speed of Python compared to C++?",
+    "expected": "I don't have that information.",
+    "actual": "I don't have that information.",
+    "context": "",
+    "in_document": false
+  },
+  {
+    "question": "Why did Python 2 reach its end of life in 2020?",
+    "expected": "I don't have that information.",
+    "actual": "I don't have that information.",
+    "context": "",
+    "in_document": false
+  }
+]

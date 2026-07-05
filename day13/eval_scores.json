@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Who created Python?",
+    "expected": "Python was created by Guido van Rossum.",
+    "actual": "Guido van Rossum created Python.",
+    "context": "Python was created by Guido van Rossum and first released in 1991.",
+    "correctness_score": 5,
+    "correctness_reason": "The actual answer conveys the exact same factual information as the expected answer. The phrasing is different but the core message is identical.",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "The actual answer is directly derived from the provided context. It states that Guido van Rossum created Python, which is explicitly mentioned in the context."
+  },
+  {
+    "question": "What TV show inspired the name of Python?",
+    "expected": "The name Python comes from the BBC television show Monty Python's Flying Circus.",
+    "actual": "Monty Python's Flying Circus",
+    "context": "The name Python comes from the BBC television show Monty Python's Flying Circus.",
+    "correctness_score": 5,
+    "correctness_reason": "The actual answer correctly identifies the TV show that inspired the name of Python, matching the key information in the expected answer.",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "The actual answer is directly and strictly derived from the provided context. It does not contain any outside information or ungrounded assumptions."
+  },
+  {
+    "question": "When did Python 2 reach its end of life?",
+    "expected": "Python 2 reached end of life in 2020.",
+    "actual": "Python 2 reached end of life in 2020.",
+    "context": "Python 2 reached end of life in 2020 and Python 3 is the current standard.",
+    "correctness_score": 5,
+    "correctness_reason": "The actual answer is identical to the expected answer, stating that Python 2 reached end of life in 2020.",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "The actual answer is directly and strictly derived from the provided context, which states: 'Python 2 reached end of life in 2020'."
+  },
+  {
+    "question": "What libraries are used for data science and deep learning in Python?",
+    "expected": "NumPy, Pandas, and Scikit-learn are used for data science, while TensorFlow and PyTorch are used for deep learning.",
+    "actual": "For data science work, NumPy, Pandas, and Scikit-learn are widely used. For deep learning in Python, TensorFlow and PyTorch are the dominant libraries.",
+    "context": "NumPy, Pandas, and Scikit-learn are widely used for data science work. TensorFlow and PyTorch are the dominant libraries for deep learning in Python.",
+    "correctness_score": 5,
+    "correctness_reason": "The actual answer perfectly matches the expected answer in terms of key facts, listing the correct libraries for both data science and deep learning.",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "The actual answer is directly extracted from the provided context. All information presented is strictly grounded in the context."
+  },
+  {
+    "question": "What are the popular web development frameworks for Python, and what other areas is Python widely used in?",
+    "expected": "Django and Flask are popular web development frameworks for Python. Python is also widely used in data science, machine learning, and automation.",
+    "actual": "Popular Python web development frameworks include Django and Flask. Python is also widely used in data science, machine learning, and automation.",
+    "context": "Popular Python frameworks include Django and Flask for web development. It is widely used in web development, data science, machine learning, and automation.",
+    "correctness_score": 5,
+    "correctness_reason": "The actual answer conveys the exact same factual information as the expected answer. All key facts, numbers, and relationships match.",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "The actual answer is fully faithful to the provided context. All information, including the frameworks and areas of use, is directly stated in the context. Minor rephrasing (e.g., 'for web development' vs. 'web development frameworks') is strictly based on the context."
+  },
+  {
+    "question": "Who created Python and what standard version does it currently use?",
+    "expected": "Guido van Rossum created Python, and Python 3 is its current standard.",
+    "actual": "Python was created by Guido van Rossum and Python 3 is the current standard.",
+    "context": "Python was created by Guido van Rossum and first released in 1991. Python 2 reached end of life in 2020 and Python 3 is the current standard.",
+    "correctness_score": 5,
+    "correctness_reason": "The actual answer perfectly matches the expected answer, providing both pieces of information requested: the creator of Python (Guido van Rossum) and its current standard version (Python 3).",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "All information in the actual answer is directly and explicitly stated in the provided context. The context clearly states, 'Python was created by Guido van Rossum' and 'Python 3 is the current standard'."
+  },
+  {
+    "question": "How does Python support multiple programming styles?",
+    "expected": "Python supports multiple programming paradigms including procedural, object-oriented, and functional programming.",
+    "actual": "Python supports multiple programming paradigms including procedural, object-oriented, and functional programming.",
+    "context": "It supports multiple programming paradigms including procedural, object-oriented, and functional programming.",
+    "correctness_score": 5,
+    "correctness_reason": "The actual answer is identical to the expected answer, conveying all the same factual information.",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "The actual answer is directly derived from the provided context. The 'It' in the context clearly refers to Python, which is the subject of the question and the implied topic of the document from which the chunk was retrieved."
+  },
+  {
+    "question": "What features of Python contribute to its large ecosystem and user base?",
+    "expected": "Python has a large standard library and an active community, and is consistently ranked as one of the most popular programming languages.",
+    "actual": "Python's features that contribute to its large ecosystem and user base include its large standard library, an active community, and an emphasis on code readability and simplicity in its design philosophy. It also supports multiple programming paradigms (procedural, object-oriented, and functional) and is widely used in web development, data science, machine learning, and automation.",
+    "context": "Python has a large standard library and an active community. Python is consistently ranked as one of the most popular programming languages in the world.",
+    "correctness_score": 5,
+    "correctness_reason": "The actual answer includes all the key facts from the expected answer (large standard library, active community). It also adds additional, correct information about Python's features that contribute to its ecosystem and user base, such as readability, multiple paradigms, and wide application areas. It does not contradict or omit any information from the expected answer.",
+    "faithfulness_score": 2,
+    "faithfulness_reason": "While the actual answer correctly states that Python has a large standard library and an active community, which are directly from the context, it adds significant information not found in the provided context. Specifically, 'emphasis on code readability and simplicity,' 'supports multiple programming paradigms (procedural, object-oriented, and functional),' and 'widely used in web development, data science, machine learning, and automation' are not present in the given context. This constitutes adding major outside details."
+  },
+  {
+    "question": "What is the execution speed of Python compared to C++?",
+    "expected": "I don't have that information.",
+    "actual": "I don't have that information.",
+    "context": "",
+    "correctness_score": 5,
+    "correctness_reason": "The actual answer perfectly matches the expected answer, both stating that the information is not available.",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "The context provided is empty, and the actual answer correctly states that it does not have the information, which is fully consistent with the lack of context."
+  },
+  {
+    "question": "Why did Python 2 reach its end of life in 2020?",
+    "expected": "I don't have that information.",
+    "actual": "I don't have that information.",
+    "context": "",
+    "correctness_score": 5,
+    "correctness_reason": "The actual answer perfectly matches the expected answer, both stating that the information is not available.",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "Since no context was provided, the actual answer correctly states that it doesn't have the information, without hallucinating or adding outside details."
+  }
+]
