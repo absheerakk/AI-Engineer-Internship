@@ -4,3 +4,6 @@
 [submodule "day14"]
 	path = day14
 	url = https://github.com/absheerakk/PageSage.git
+[submodule "day15"]
+	path = day15
+	url = https://github.com/absheerakk/CohortIQ.git
